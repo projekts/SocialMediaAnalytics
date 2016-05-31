@@ -1,4 +1,4 @@
-# SocialMediaAnalytics
+# Social Media Analytics
 Project Name: Social Media Activity Analytics
 
 Requirements: 
@@ -8,9 +8,9 @@ Requirements:
 
 Instructions: Please run the DataDisplay.html file
  
-Assumptions: The JSON file used as input contains social media activity data for a particular brand or product.Each entry in the JSON file is one Social media activity.
+Assumptions: The JSON file used as input contains social media activity data for a particular brand or product. Each entry in the JSON file is one Social media activity.
 
-Description:A browser UI that takes as input a JSON file from a web endpoint or a local directory.It then displays the social media activities and allows you to easily analyze the data. It does this using adashboard and a fluid user interface. It allows the user to extract the data into an excel format.
+Description:A browser UI that takes as input a JSON file from a web endpoint or a local directory.It then displays the social media activities and allows the user to easily analyze the data. It does this using a dashboard and a fluid user interface. It allows the user to extract the data into an excel format.
 
 Built using: 
 
