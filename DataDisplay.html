@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Social Media Analytics</title>
+<!-- JQuery  include-->
+<script src="ImportedJavascript\jquery.min.js"></script>
+
+<!-- Data Table  include-->
+<script src="ImportedJavascript\jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="ImportedCSS\jquery.dataTables.min.css">
+
+<!-- Data Table Extension Buttons  include-->
+<script src="ImportedJavascript\dataTables.buttons.min.js"></script>
+<link rel="stylesheet" type="text/css" href="ImportedCSS\buttons.dataTables.min.css">
+
+<!-- Data Table Extension Coloumn reorder  include-->
+<script src="ImportedJavascript\dataTables.colReorder.min.js"></script>
+<link rel="stylesheet" type="text/css" href="ImportedCSS\colReorder.dataTables.min.css">
+
+<!-- Data Table Extension Column visibility  include-->
+<script src="ImportedJavascript\buttons.colVis.min.js"></script>
+
+<!-- Data Table Extension Jszip-needed for excel  include-->
+<script src="ImportedJavascript\jszip.min.js"></script>
+
+<!-- Data Table Extension pdfmake  include-->
+<script src="ImportedJavascript\pdfmake.min.js"></script>
+
+<!-- Data Table Extension vsFonts include-->
+<script src="ImportedJavascript\vfs_fonts.js"></script>
+
+<!-- Data Table Extension HTML5  include-->
+<script src="ImportedJavascript\buttons.html5.min.js"></script>
+
+<!-- Data Table Extension Print include-->
+<script src="ImportedJavascript\buttons.print.min.js"></script>
+
+<!-- Date Conversion  include-->
+<script src="ImportedJavascript\moment.min.js"></script>
+
+
+<!-- Data Table Awesome Fonts for sort arrows include-->
+<link rel="stylesheet" type="text/css" href="ImportedCSS\dataTables.fontAwesome.css">
+
+
+<!-- D3 Javascript Charting include-->
+<script src="ImportedJavascript\d3.min.js" charset="utf-8"></script>
+<script src="ImportedJavascript\d3pie.min.js"></script>
+
+<!--My  JavaScript and styles for page, including all visualization -->
+<script src="DataDisplay.js"></script>
+<link rel="stylesheet" type="text/css" href="myStyles.css">
+
+
+</head>
+<body>
+
+<div id="title">
+<h1>Social Media Analytics.</h1>
+</div>
+
+ <div id="Begin">
+ <div>Please enter the web address for the Json or use Json.txt</div>
+  <input type="text" id="jsonPath" value="Json.txt"> 
+  <button id="btnLoadJSON">Load JSON</button>
+  <button id="btnClear">Clear</button>
+</div>
+
+<div class="Buttons">
+<button id="btnDisplayDashBoard">Toggle Dashboard</button>
+<button id="btnDisplayTable">Toggle DataTable</button>
+</div>
+
+<div id="DashBoard">
+
+	<div id="activityPieChart"></div>
+	<div id="likesPieChart"></div>
+	<div id="sharesPieChart"></div>
+</div>
+
+<div id="showDataTable" class="container"></div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!-- JQuery  include-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Data Table  include-->
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+
+<!-- Data Table Extension Buttons  include-->
+<script src="https://cdn.datatables.net/buttons/1.2.0/js/dataTables.buttons.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.2.0/css/buttons.dataTables.min.css">
+<!-- Data Table Extension Column visibility  include-->
+<script src="https://cdn.datatables.net/buttons/1.2.0/js/buttons.colVis.min.js"></script>
+
+<!-- Data Table Extension Coloumn reorder  include-->
+<script src="https://cdn.datatables.net/colreorder/1.3.2/js/dataTables.colReorder.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/colreorder/1.3.2/css/colReorder.dataTables.min.css">
+
+
+<!-- Data Table Extension Jszip-needed for excel  include-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+
+<!-- Data Table Extension pdfmake  include-->
+<script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+
+<!-- Data Table Extension vsFonts include-->
+<script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+
+<!-- Data Table Extension HTML5  include-->
+<script src="https://cdn.datatables.net/buttons/1.2.0/js/buttons.html5.min.js"></script>
+
+<!-- Data Table Extension Print include-->
+<script src="https://cdn.datatables.net/buttons/1.2.0/js/buttons.print.min.js"></script>
+
+<!-- Date Conversion  include-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+
+<!-- D3 Javascript Charting include-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js" charset="utf-8"></script>
+<script src="https://raw.githubusercontent.com/benkeen/d3pie/0.1.8/d3pie/d3pie.min.js"></script>
+
+<!-- Data Table Awesome Fonts for sort arrows include also add the actual font and change path in css to local font-->
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/1.10.11/integration/font-awesome/dataTables.fontAwesome.css">
+
+<!--My  JavaScript and styles for page, including all visualization -->
+<script src="DataDisplay.js"></script>
+<link rel="stylesheet" type="text/css" href="myStyles.css">
